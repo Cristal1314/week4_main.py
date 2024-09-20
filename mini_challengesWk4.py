@@ -1,14 +1,15 @@
 #################################Extracting Sub-Strings###################################
 # Extracting Sub-Strings Practice #1
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-text1 = "Controlling complexity is the essence of programming"
-print(text1[0:12]) #prints controlling
+text = "Controlling complexity is the essence of programming"
+print=(text[0:12])
+print(substring) #prints controlling
 # Hint: "Controlling" is 11 characters long.
 
 # Extracting Sub-Strings Practice #2
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
-text2 = "Never trust a computer you can't throw out a window"
-print(text2[9:-1:3])
+# "Never trust a computer you can't throw out a window"
+print(text[9:-1:3])
 # Extracting Sub-Strings Practice #3
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 # "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
@@ -17,29 +18,28 @@ print(text2[9:-1:3])
 # String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
-text3 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-print(text3.upper()) #prints the sentence in uppercase yelling
+# 
+substring = 
 # String Methods Practice #2
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 # word_list = ["Simple","is","better","than","complex."]
 
 # String Methods Practice #3
 # Replace in the following sentence:
-#"If the implementation is hard to explain, it might be a bad idea."
+# "If the implementation is hard to explain, it might be a bad idea."
 # the following pairs of words:
 # "hard" --> "easy"
 # "bad" --> "good"
 # and display the sentence with both words modified.
-text4="If the implementation is hard to explain , it might be a bad idea"
-result1= text4.replace ("hard","easy") .replace("bad","good")
+text="If the implementation is hard to explain , it might be a bad idea"
+result1= text.replace ("hard","Bad") .replace("easy","good")
 print(result1)
 #################################string properties################################
 
 # String Properties Practice #1
 # Concatenate the text "Repetition" 15 times and display the result on the screen.
 # Luckily, you know that strings are multipliable and you can do this activity in a simple and elegant way.
-repetition="Repetition"*15
-print (repetition)
+
 # String Properties Practice #2
 # Check if the word "beach" is not found in the following haiku. You should print the boolean.
 # "Whitecaps on the bay:
